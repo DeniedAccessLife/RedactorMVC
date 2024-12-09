@@ -2,11 +2,13 @@ package model;
 
 import java.awt.geom.Point2D;
 
-public class Point extends Point2D {
+public class Point extends Point2D
+{
     private double x;
     private double y;
 
-    public Point(double x, double y) {
+    public Point(double x, double y)
+    {
         this.x = x;
         this.y = y;
     }
@@ -22,13 +24,15 @@ public class Point extends Point2D {
     }
 
     @Override
-    public void setLocation(double x, double y) {
+    public void setLocation(double x, double y)
+    {
         this.x = x;
         this.y = y;
     }
 
     @Override
-    public Object clone() {
+    public Object clone()
+    {
         return new Point(this.x, this.y);
     }
 }

@@ -1,6 +1,5 @@
 package controller;
 
-import controller.action.ActionDelete;
 import model.*;
 import java.awt.*;
 import view.Panel;
@@ -10,6 +9,7 @@ import java.awt.event.*;
 import java.util.Collection;
 import controller.action.ActionDraw;
 import controller.action.ActionMove;
+import controller.action.ActionDelete;
 import controller.action.ActionInterface;
 
 public class Controller
